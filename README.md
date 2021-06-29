@@ -16,9 +16,9 @@ P_emaildomain,
 R_emaildomain, 
 M1 - M9
 # Categorical Features - Identity
-DeviceType
-DeviceInfo
-id_12 - id_38
+DeviceType, 
+DeviceInfo,
+id_12 - id_38,
 # Files
 train_{transaction, identity}.csv - the training set
 test_{transaction, identity}.csv - the test set (you must predict the isFraud value for these observations)
